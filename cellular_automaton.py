@@ -84,7 +84,6 @@ class CellularAutomaton:
         Returns: 
             String: Representing the formatted state string.
         """
-        # Function converts "0" to " " and 1 to "*"
         printString = ""
         for char in self.state:
             if char == '0':
